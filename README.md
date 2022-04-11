@@ -1,6 +1,7 @@
 # Free-charge-generation-in-Y6-theory
-Data and code for theoretical modelling associated with the paper "Free Charge Photogeneration in a Single Component High Photovoltaic Efficiency Organic Semiconductor" Things still need to be tidied up a bit, but hopefully people are able to find their way around without too much trouble.
+This project contains data and code for theoretical modelling associated with our paper "Free Charge Photogeneration in a Single Component High Photovoltaic Efficiency Organic Semiconductor". 
 
-If you have any questions please get in touch at paulalexanderhume@gmail.com. 
+Things still need to be tidied up, but hopefully people can find their way around without too much trouble.
+If you have any questions please get in touch at paulalexanderhume@gmail.com.
 
-Experimental data and code from the paper can be found at https://github.com/Mikebprice/Free-charge-generation-in-Y6
+I'm also very happy to discuss the interpretation of the experimental data, but the experimental data and associated code can be found at https://github.com/Mikebprice/Free-charge-generation-in-Y6.
