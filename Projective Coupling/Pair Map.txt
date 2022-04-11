@@ -1,0 +1,7 @@
+Pair 1 is tda1
+Pair 2 is tda7
+Pair 3 is tda2
+Pair 4 is tda4
+Pair 5 is tda5
+Pair 6 is tda6
+Pair 7 is tda3
