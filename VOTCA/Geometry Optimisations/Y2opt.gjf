@@ -1,0 +1,9 @@
+%nprocshared=24
+%mem=188GB
+%chk=Y2opt.chk
+# opt freq b3lyp/6-311G(d,p) int=(ultrafine,acc2e=11) nosymm guess=read geom=check
+
+Y2opt
+
+0 1
+
