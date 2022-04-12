@@ -1,0 +1,1444 @@
+<topology>
+	<molecules>
+		<molecule>
+			<name>Y1</name>
+			<mdname>Y1</mdname>
+			<segments>
+				<segment>
+					<name>Y1</name>
+					<qmcoords>QC_FILES/Y1.xyz</qmcoords>
+					<multipoles_n>MP_FILES/Y1_1_pol.mps</multipoles_n>
+					<multipoles_e>MP_FILES/Y1_N1_pol.mps</multipoles_e>
+					<multipoles_h>MP_FILES/Y1_P1_pol.mps</multipoles_h>
+					<map2md>0</map2md>
+					<fragments>
+						     <fragment>
+								<name>Core</name>
+								<mdatoms>  1:Y1:S1   1:Y1:N1   1:Y1:N2   1:Y1:N3   1:Y1:C1   1:Y1:N4   1:Y1:C2   1:Y1:C3   1:Y1:C6   1:Y1:C9  1:Y1:C10  1:Y1:S4   1:Y1:S5  1:Y1:C11  1:Y1:C12  1:Y1:C16  1:Y1:C18  1:Y1:C28  1:Y1:C37   1:Y1:S2   1:Y1:S3   1:Y1:C4   1:Y1:C5   1:Y1:C8  1:Y1:C15  1:Y1:C19  1:Y1:C20  </mdatoms>   
+								<qmatoms>      1:S       6:N       7:N       9:N      10:C      11:N      13:C      14:C      19:C      22:C      23:C      4:S       5:S      24:C      26:C      30:C      32:C      44:C      53:C       2:S       3:S      15:C      17:C      21:C      29:C      35:C      36:C  </qmatoms>   
+								<mpoles>       1:S       6:N       7:N       9:N      10:C      11:N      13:C      14:C      19:C      22:C      23:C      4:S       5:S      24:C      26:C      30:C      32:C      44:C      53:C       2:S       3:S      15:C      17:C      21:C      29:C      35:C      36:C  </mpoles>    
+								<weights>       32        14        14        14        12        14        12        12        12        12        12       32        32        12        12        12        12        12        12        32        32        12        12        12        12        12        12  </weights>   
+								<localframe> 14 22 23 </localframe>
+							 </fragment>
+							 <fragment>
+								<name>A1</name>
+								<mdatoms>  1:Y1:O2   1:Y1:C7  1:Y1:C21  1:Y1:C24  1:Y1:C25  1:Y1:C39  1:Y1:C40  1:Y1:H86   1:Y1:F1   1:Y1:F4  1:Y1:C41  1:Y1:C42  1:Y1:C43  1:Y1:C44   1:Y1:H6   1:Y1:H7   </mdatoms>   
+								<qmatoms>     12:O      20:C      37:C      40:C      41:C      55:C      56:C     187:H      16:F      34:F      57:C      58:C      59:C      60:C     107:H     108:H   </qmatoms>   
+								<mpoles>      12:O      20:C      37:C      40:C      41:C      55:C      56:C     187:H      16:F      34:F      57:C      58:C      59:C      60:C     107:H     108:H   </mpoles>    
+								<weights>       16        12        12        12        12        12        12         1        19        19        12        12        12        12         1         1   </weights>   
+								<localframe> 37 20 56 </localframe>
+							 </fragment>
+							 <fragment>
+								<name>A2</name>
+								<mdatoms> 1:Y1:O1     1:Y1:C13     1:Y1:C14      1:Y1:C17      1:Y1:C22     1:Y1:C31     1:Y1:C32    1:Y1:H85    1:Y1:F2   1:Y1:F3  1:Y1:C33  1:Y1:C34  1:Y1:C35  1:Y1:C36   1:Y1:H4   1:Y1:H5    </mdatoms>   
+								<qmatoms>   8:O        27:C         28:C          31:C          38:C         47:C         48:C        186:H         18:F      25:F      49:C      50:C      51:C      52:C     105:H     106:H    </qmatoms>   
+								<mpoles>    8:O        27:C         28:C          31:C          38:C         47:C         48:C        186:H         18:F      25:F      49:C      50:C      51:C      52:C     105:H     106:H    </mpoles>    
+								<weights>    16          12           12            12            12           12           12          1             19        19        12        12        12        12         1         1    </weights>   
+								<localframe> 27 31 47 </localframe>
+							 </fragment>
+							 <fragment>
+								<name>DCV1</name>
+								<mdatoms> 1:Y1:C27   1:Y1:N6  1:Y1:C47  1:Y1:C49   1:Y1:N8   </mdatoms>   
+								<qmatoms>     43:C      63:N      64:C      67:C      69:N   </qmatoms>   
+								<mpoles>      43:C      63:N      64:C      67:C      69:N   </mpoles>    
+								<weights>       12        14        12        12        14   </weights>   
+								<localframe> 64 43 67 </localframe>
+							 </fragment>
+							 <fragment>
+								<name>DCV2</name>
+								<mdatoms> 1:Y1:N5  1:Y1:C23  1:Y1:C45   1:Y1:N7  1:Y1:C65   </mdatoms>   
+								<qmatoms>    33:N      39:C      61:C      65:N      84:C   </qmatoms>   
+								<mpoles>     33:N      39:C      61:C      65:N      84:C   </mpoles>    
+								<weights>      14        12        12        14        12   </weights>   
+								<localframe> 39 84 61 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>NMe1</name>
+								<mdatoms> 1:Y1:C29   1:Y1:H1   1:Y1:H2   </mdatoms>   
+								<qmatoms>     45:C     102:H     103:H   </qmatoms>   
+								<mpoles>      45:C     102:H     103:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 45 102 103 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>NMe2</name>
+								<mdatoms> 1:Y1:C53  1:Y1:H17  1:Y1:H18     </mdatoms>   
+								<qmatoms>     72:C     118:H     119:H     </qmatoms>   
+								<mpoles>      72:C     118:H     119:H     </mpoles>    
+								<weights>       12         1         1     </weights>   
+								<localframe> 72 118 119 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>CH_1</name>
+								<mdatoms> 1:Y1:C30   1:Y1:H3  </mdatoms>   
+								<qmatoms>     46:C     104:H  </qmatoms>   
+								<mpoles>      46:C     104:H  </mpoles>    
+								<weights>       12         1  </weights>   
+								<localframe> 46 104 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>Et1</name>
+								<mdatoms> 1:Y1:C50 1:Y1:H12  1:Y1:H13   </mdatoms>   
+								<qmatoms>     68:C    113:H     114:H   </qmatoms>   
+								<mpoles>      68:C    113:H     114:H   </mpoles>    
+								<weights>       12        1         1   </weights>   
+								<localframe> 113 68 114</localframe>
+							 </fragment>
+							 <fragment>
+							    <name>CH_2</name>
+								<mdatoms> 1:Y1:C57  1:Y1:H24   </mdatoms>   
+								<qmatoms>     76:C     125:H   </qmatoms>   
+								<mpoles>      76:C     125:H   </mpoles>    
+								<weights>       12         1   </weights>   
+								<localframe> 76 125 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>Et2</name>
+								<mdatoms> 1:Y1:C59 1:Y1:H25  1:Y1:H26   </mdatoms>   
+								<qmatoms>     78:C    126:H     127:H   </qmatoms>   
+								<mpoles>      78:C    126:H     127:H   </mpoles>    
+								<weights>       12        1         1   </weights>   
+								<localframe> 126 78 127 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M1</name>
+								<mdatoms> 1:Y1:C51  1:Y1:H14  1:Y1:H15  1:Y1:H16    </mdatoms>   
+								<qmatoms>     70:C     115:H     116:H     117:H    </qmatoms>   
+								<mpoles>      70:C     115:H     116:H     117:H    </mpoles>    
+								<weights>       12         1         1         1    </weights>   
+								<localframe> 115 70 116 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M2</name>
+								<mdatoms> 1:Y1:C46   1:Y1:H8   1:Y1:H9      </mdatoms>   
+								<qmatoms>     62:C     109:H     110:H      </qmatoms>   
+								<mpoles>      62:C     109:H     110:H      </mpoles>    
+								<weights>       12         1         1      </weights>   
+								<localframe> 109 62 110 </localframe>
+							 </fragment>							 
+							 <fragment>
+							    <name>M3</name>
+								<mdatoms> 1:Y1:C48  1:Y1:H10  1:Y1:H11   </mdatoms>   
+								<qmatoms>     66:C     111:H     112:H   </qmatoms>   
+								<mpoles>      66:C     111:H     112:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 111 66 112 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M4</name>
+								<mdatoms> 1:Y1:C54  1:Y1:H19  1:Y1:H20    </mdatoms>   
+								<qmatoms>     73:C     120:H     121:H    </qmatoms>   
+								<mpoles>      73:C     120:H     121:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 120 73 121 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M5</name>
+								<mdatoms> 1:Y1:C55  1:Y1:H21  1:Y1:H22  1:Y1:H23   </mdatoms>   
+								<qmatoms>     74:C     122:H     123:H     124:H   </qmatoms>   
+								<mpoles>      74:C     122:H     123:H     124:H   </mpoles>    
+								<weights>       12         1         1         1   </weights>   
+								<localframe> 122 74 123  </localframe>
+							 </fragment>							 
+							 <fragment>
+							    <name>M6</name>
+								<mdatoms> 1:Y1:C61  1:Y1:H29  1:Y1:H30  1:Y1:H31   </mdatoms>   
+								<qmatoms>     80:C     130:H     131:H     132:H   </qmatoms>   
+								<mpoles>      80:C     130:H     131:H     132:H   </mpoles>    
+								<weights>       12         1         1         1   </weights>   
+								<localframe> 130 80 131 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M7</name>
+								<mdatoms> 1:Y1:C60  1:Y1:H27  1:Y1:H28   </mdatoms>   
+								<qmatoms>     79:C     128:H     129:H   </qmatoms>   
+								<mpoles>      79:C     128:H     129:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 128 79 129 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M8</name>
+								<mdatoms> 1:Y1:C62  1:Y1:H32  1:Y1:H33   </mdatoms>   
+								<qmatoms>     81:C     133:H     134:H   </qmatoms>   
+								<mpoles>      81:C     133:H     134:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 133 81 134 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M9</name>
+								<mdatoms> 1:Y1:C63  1:Y1:H34  1:Y1:H35   </mdatoms>   
+								<qmatoms>     82:C     135:H     136:H   </qmatoms>   
+								<mpoles>      82:C     135:H     136:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 135 82 136 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M10</name>
+								<mdatoms> 1:Y1:C64  1:Y1:H36  1:Y1:H37  1:Y1:H38 </mdatoms>   
+								<qmatoms>     83:C     137:H     138:H     139:H </qmatoms>   
+								<mpoles>      83:C     137:H     138:H     139:H </mpoles>    
+								<weights>       12         1         1         1 </weights>   
+								<localframe> 137 83 138 </localframe>
+							 </fragment>							 
+							 <fragment>
+							    <name>M11</name>
+								<mdatoms> 1:Y1:C52  1:Y1:H47  1:Y1:H48   </mdatoms>   
+								<qmatoms>     71:C     148:H     149:H   </qmatoms>   
+								<mpoles>      71:C     148:H     149:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 148 71 149 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M12</name>
+								<mdatoms> 1:Y1:C66  1:Y1:H49  1:Y1:H50    </mdatoms>   
+								<qmatoms>     85:C     150:H     151:H    </qmatoms>   
+								<mpoles>      85:C     150:H     151:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 150 85 151 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M13</name>
+								<mdatoms> 1:Y1:C67  1:Y1:H51  1:Y1:H52   </mdatoms>   
+								<qmatoms>     86:C     152:H     153:H   </qmatoms>   
+								<mpoles>      86:C     152:H     153:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 152 86 153 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M14</name>
+								<mdatoms> 1:Y1:C68  1:Y1:H53  1:Y1:H54    </mdatoms>   
+								<qmatoms>     87:C     154:H     155:H    </qmatoms>   
+								<mpoles>      87:C     154:H     155:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 154 87 155 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M15</name>
+								<mdatoms> 1:Y1:C69  1:Y1:H55  1:Y1:H56   </mdatoms>   
+								<qmatoms>     88:C     156:H     157:H   </qmatoms>   
+								<mpoles>      88:C     156:H     157:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 156 88 157 </localframe>
+							 </fragment>							 
+							 <fragment>
+							    <name>M16</name>
+								<mdatoms> 1:Y1:C70  1:Y1:H57  1:Y1:H58   </mdatoms>   
+								<qmatoms>     89:C     158:H     159:H   </qmatoms>   
+								<mpoles>      89:C     158:H     159:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 158 89 159 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M17</name>
+								<mdatoms> 1:Y1:C71  1:Y1:H59  1:Y1:H60   </mdatoms>   
+								<qmatoms>     90:C     160:H     161:H   </qmatoms>   
+								<mpoles>      90:C     160:H     161:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 160 90 161 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M18</name>
+								<mdatoms> 1:Y1:C72  1:Y1:H61  1:Y1:H62   </mdatoms>   
+								<qmatoms>     91:C     162:H     163:H   </qmatoms>   
+								<mpoles>      91:C     162:H     163:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 162 91 163 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M19</name>
+								<mdatoms> 1:Y1:C73  1:Y1:H63  1:Y1:H64   </mdatoms>   
+								<qmatoms>     92:C     164:H     165:H   </qmatoms>   
+								<mpoles>      92:C     164:H     165:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 164 92 165 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M20</name>
+								<mdatoms> 1:Y1:C74  1:Y1:H65  1:Y1:H66   </mdatoms>   
+								<qmatoms>     93:C     166:H     167:H   </qmatoms>   
+								<mpoles>      93:C     166:H     167:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 166 93 167 </localframe>
+							 </fragment>							 
+							 <fragment>
+							    <name>M21</name>
+								<mdatoms> 1:Y1:C75  1:Y1:H67  1:Y1:H68  1:Y1:H69   </mdatoms>   
+								<qmatoms>     94:C     168:H     169:H     170:H   </qmatoms>   
+								<mpoles>      94:C     168:H     169:H     170:H   </mpoles>    
+								<weights>       12         1         1         1   </weights>   
+								<localframe> 168 94 169 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M22</name>
+								<mdatoms> 1:Y1:C26  1:Y1:H39  1:Y1:H40   </mdatoms>   
+								<qmatoms>     42:C     140:H     141:H   </qmatoms>   
+								<mpoles>      42:C     140:H     141:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 140 42 141 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M23</name>
+								<mdatoms> 1:Y1:C38  1:Y1:H41  1:Y1:H42   </mdatoms>   
+								<qmatoms>     54:C     142:H     143:H   </qmatoms>   
+								<mpoles>      54:C     142:H     143:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 142 54 143 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M24</name>
+								<mdatoms> 1:Y1:C56  1:Y1:H43  1:Y1:H44    </mdatoms>   
+								<qmatoms>     75:C     144:H     145:H    </qmatoms>   
+								<mpoles>      75:C     144:H     145:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 144 75 145 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M25</name>
+								<mdatoms> 1:Y1:C58  1:Y1:H45  1:Y1:H46    </mdatoms>   
+								<qmatoms>     77:C     146:H     147:H    </qmatoms>   
+								<mpoles>      77:C     146:H     147:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 146 77 147 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M26</name>
+								<mdatoms> 1:Y1:C76  1:Y1:H70  1:Y1:H71   </mdatoms>   
+								<qmatoms>     95:C     171:H     172:H   </qmatoms>   
+								<mpoles>      95:C     171:H     172:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 171 95 172 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M27</name>
+								<mdatoms> 1:Y1:C77  1:Y1:H72  1:Y1:H73   </mdatoms>   
+								<qmatoms>     96:C     173:H     174:H   </qmatoms>   
+								<mpoles>      96:C     173:H     174:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 173 96 174 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M28</name>
+								<mdatoms> 1:Y1:C78  1:Y1:H74  1:Y1:H75    </mdatoms>   
+								<qmatoms>     97:C     175:H     176:H    </qmatoms>   
+								<mpoles>      97:C     175:H     176:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 175 97 176 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M29</name>
+								<mdatoms> 1:Y1:C79  1:Y1:H76  1:Y1:H77   </mdatoms>   
+								<qmatoms>     98:C     177:H     178:H   </qmatoms>   
+								<mpoles>      98:C     177:H     178:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 177 98 178 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M30</name>
+								<mdatoms> 1:Y1:C80  1:Y1:H78  1:Y1:H79    </mdatoms>   
+								<qmatoms>     99:C     179:H     180:H    </qmatoms>   
+								<mpoles>      99:C     179:H     180:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 179 99 180 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M31 </name>
+								<mdatoms> 1:Y1:C81  1:Y1:H80  1:Y1:H81   </mdatoms>   
+								<qmatoms>    100:C     181:H     182:H   </qmatoms>   
+								<mpoles>     100:C     181:H     182:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 181 100 182 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M32</name>
+								<mdatoms> 1:Y1:C82  1:Y1:H82  1:Y1:H83  1:Y1:H84    </mdatoms>   
+								<qmatoms>    101:C     183:H     184:H     185:H    </qmatoms>   
+								<mpoles>     101:C     183:H     184:H     185:H    </mpoles>    
+								<weights>       12         1         1         1    </weights>   
+								<localframe> 183 101 184 </localframe>
+							 </fragment>		 
+						</fragments>
+				</segment>
+			</segments>
+		</molecule>
+		<molecule>
+			<name>Z1</name>
+			<mdname>Z1</mdname>
+			<segments>
+				<segment>
+					<name>Z1</name>
+					<qmcoords>QC_FILES/Z1.xyz</qmcoords>
+					<multipoles_n>MP_FILES/Z1_1_pol.mps</multipoles_n>
+					<multipoles_e>MP_FILES/Z1_N1_pol.mps</multipoles_e>
+					<multipoles_h>MP_FILES/Z1_P1_pol.mps</multipoles_h>
+					<map2md>0</map2md>
+					<fragments>
+						     <fragment>
+								<name>Core</name>
+								<mdatoms>  1:Z1:S1   1:Z1:N1   1:Z1:N2   1:Z1:N3   1:Z1:C1   1:Z1:N4   1:Z1:C2   1:Z1:C3   1:Z1:C6   1:Z1:C9  1:Z1:C10  1:Z1:S4   1:Z1:S5  1:Z1:C11  1:Z1:C12  1:Z1:C16  1:Z1:C18  1:Z1:C28  1:Z1:C37   1:Z1:S2   1:Z1:S3   1:Z1:C4   1:Z1:C5   1:Z1:C8  1:Z1:C15  1:Z1:C19  1:Z1:C20  </mdatoms>   
+								<qmatoms>      1:S       6:N       7:N       9:N      10:C      11:N      13:C      14:C      19:C      22:C      23:C      4:S       5:S      24:C      26:C      30:C      32:C      44:C      53:C       2:S       3:S      15:C      17:C      21:C      29:C      35:C      36:C  </qmatoms>   
+								<mpoles>       1:S       6:N       7:N       9:N      10:C      11:N      13:C      14:C      19:C      22:C      23:C      4:S       5:S      24:C      26:C      30:C      32:C      44:C      53:C       2:S       3:S      15:C      17:C      21:C      29:C      35:C      36:C  </mpoles>    
+								<weights>       32        14        14        14        12        14        12        12        12        12        12       32        32        12        12        12        12        12        12        32        32        12        12        12        12        12        12  </weights>   
+								<localframe> 14 22 23 </localframe>
+							 </fragment>
+							 <fragment>
+								<name>A1</name>
+								<mdatoms>  1:Z1:O2   1:Z1:C7  1:Z1:C21  1:Z1:C24  1:Z1:C25  1:Z1:C39  1:Z1:C40  1:Z1:H86   1:Z1:F1   1:Z1:F4  1:Z1:C41  1:Z1:C42  1:Z1:C43  1:Z1:C44   1:Z1:H6   1:Z1:H7   </mdatoms>   
+								<qmatoms>     12:O      20:C      37:C      40:C      41:C      55:C      56:C     187:H      16:F      34:F      57:C      58:C      59:C      60:C     107:H     108:H   </qmatoms>   
+								<mpoles>      12:O      20:C      37:C      40:C      41:C      55:C      56:C     187:H      16:F      34:F      57:C      58:C      59:C      60:C     107:H     108:H   </mpoles>    
+								<weights>       16        12        12        12        12        12        12         1        19        19        12        12        12        12         1         1   </weights>   
+								<localframe> 37 20 56 </localframe>
+							 </fragment>
+							 <fragment>
+								<name>A2</name>
+								<mdatoms> 1:Z1:O1     1:Z1:C13     1:Z1:C14      1:Z1:C17      1:Z1:C22     1:Z1:C31     1:Z1:C32    1:Z1:H85    1:Z1:F2   1:Z1:F3  1:Z1:C33  1:Z1:C34  1:Z1:C35  1:Z1:C36   1:Z1:H4   1:Z1:H5    </mdatoms>   
+								<qmatoms>   8:O        27:C         28:C          31:C          38:C         47:C         48:C        186:H         18:F      25:F      49:C      50:C      51:C      52:C     105:H     106:H    </qmatoms>   
+								<mpoles>    8:O        27:C         28:C          31:C          38:C         47:C         48:C        186:H         18:F      25:F      49:C      50:C      51:C      52:C     105:H     106:H    </mpoles>    
+								<weights>    16          12           12            12            12           12           12          1             19        19        12        12        12        12         1         1    </weights>   
+								<localframe> 27 31 47 </localframe>
+							 </fragment>
+							 <fragment>
+								<name>DCV1</name>
+								<mdatoms> 1:Z1:C27   1:Z1:N6  1:Z1:C47  1:Z1:C49   1:Z1:N8   </mdatoms>   
+								<qmatoms>     43:C      63:N      64:C      67:C      69:N   </qmatoms>   
+								<mpoles>      43:C      63:N      64:C      67:C      69:N   </mpoles>    
+								<weights>       12        14        12        12        14   </weights>   
+								<localframe> 64 43 67 </localframe>
+							 </fragment>
+							 <fragment>
+								<name>DCV2</name>
+								<mdatoms> 1:Z1:N5  1:Z1:C23  1:Z1:C45   1:Z1:N7  1:Z1:C65   </mdatoms>   
+								<qmatoms>    33:N      39:C      61:C      65:N      84:C   </qmatoms>   
+								<mpoles>     33:N      39:C      61:C      65:N      84:C   </mpoles>    
+								<weights>      14        12        12        14        12   </weights>   
+								<localframe> 39 84 61 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>NMe1</name>
+								<mdatoms> 1:Z1:C29   1:Z1:H1   1:Z1:H2   </mdatoms>   
+								<qmatoms>     45:C     102:H     103:H   </qmatoms>   
+								<mpoles>      45:C     102:H     103:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 45 102 103 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>NMe2</name>
+								<mdatoms> 1:Z1:C53  1:Z1:H17  1:Z1:H18     </mdatoms>   
+								<qmatoms>     72:C     118:H     119:H     </qmatoms>   
+								<mpoles>      72:C     118:H     119:H     </mpoles>    
+								<weights>       12         1         1     </weights>   
+								<localframe> 72 118 119 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>CH_1</name>
+								<mdatoms> 1:Z1:C30   1:Z1:H3  </mdatoms>   
+								<qmatoms>     46:C     104:H  </qmatoms>   
+								<mpoles>      46:C     104:H  </mpoles>    
+								<weights>       12         1  </weights>   
+								<localframe> 46 104 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>Et1</name>
+								<mdatoms> 1:Z1:C50 1:Z1:H12  1:Z1:H13   </mdatoms>   
+								<qmatoms>     68:C    113:H     114:H   </qmatoms>   
+								<mpoles>      68:C    113:H     114:H   </mpoles>    
+								<weights>       12        1         1   </weights>   
+								<localframe> 113 68 114</localframe>
+							 </fragment>
+							 <fragment>
+							    <name>CH_2</name>
+								<mdatoms> 1:Z1:C57  1:Z1:H24   </mdatoms>   
+								<qmatoms>     76:C     125:H   </qmatoms>   
+								<mpoles>      76:C     125:H   </mpoles>    
+								<weights>       12         1   </weights>   
+								<localframe> 76 125 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>Et2</name>
+								<mdatoms> 1:Z1:C59 1:Z1:H25  1:Z1:H26   </mdatoms>   
+								<qmatoms>     78:C    126:H     127:H   </qmatoms>   
+								<mpoles>      78:C    126:H     127:H   </mpoles>    
+								<weights>       12        1         1   </weights>   
+								<localframe> 126 78 127 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M1</name>
+								<mdatoms> 1:Z1:C51  1:Z1:H14  1:Z1:H15  1:Z1:H16    </mdatoms>   
+								<qmatoms>     70:C     115:H     116:H     117:H    </qmatoms>   
+								<mpoles>      70:C     115:H     116:H     117:H    </mpoles>    
+								<weights>       12         1         1         1    </weights>   
+								<localframe> 115 70 116 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M2</name>
+								<mdatoms> 1:Z1:C46   1:Z1:H8   1:Z1:H9      </mdatoms>   
+								<qmatoms>     62:C     109:H     110:H      </qmatoms>   
+								<mpoles>      62:C     109:H     110:H      </mpoles>    
+								<weights>       12         1         1      </weights>   
+								<localframe> 109 62 110 </localframe>
+							 </fragment>							 
+							 <fragment>
+							    <name>M3</name>
+								<mdatoms> 1:Z1:C48  1:Z1:H10  1:Z1:H11   </mdatoms>   
+								<qmatoms>     66:C     111:H     112:H   </qmatoms>   
+								<mpoles>      66:C     111:H     112:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 111 66 112 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M4</name>
+								<mdatoms> 1:Z1:C54  1:Z1:H19  1:Z1:H20    </mdatoms>   
+								<qmatoms>     73:C     120:H     121:H    </qmatoms>   
+								<mpoles>      73:C     120:H     121:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 120 73 121 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M5</name>
+								<mdatoms> 1:Z1:C55  1:Z1:H21  1:Z1:H22  1:Z1:H23   </mdatoms>   
+								<qmatoms>     74:C     122:H     123:H     124:H   </qmatoms>   
+								<mpoles>      74:C     122:H     123:H     124:H   </mpoles>    
+								<weights>       12         1         1         1   </weights>   
+								<localframe> 122 74 123  </localframe>
+							 </fragment>							 
+							 <fragment>
+							    <name>M6</name>
+								<mdatoms> 1:Z1:C61  1:Z1:H29  1:Z1:H30  1:Z1:H31   </mdatoms>   
+								<qmatoms>     80:C     130:H     131:H     132:H   </qmatoms>   
+								<mpoles>      80:C     130:H     131:H     132:H   </mpoles>    
+								<weights>       12         1         1         1   </weights>   
+								<localframe> 130 80 131 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M7</name>
+								<mdatoms> 1:Z1:C60  1:Z1:H27  1:Z1:H28   </mdatoms>   
+								<qmatoms>     79:C     128:H     129:H   </qmatoms>   
+								<mpoles>      79:C     128:H     129:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 128 79 129 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M8</name>
+								<mdatoms> 1:Z1:C62  1:Z1:H32  1:Z1:H33   </mdatoms>   
+								<qmatoms>     81:C     133:H     134:H   </qmatoms>   
+								<mpoles>      81:C     133:H     134:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 133 81 134 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M9</name>
+								<mdatoms> 1:Z1:C63  1:Z1:H34  1:Z1:H35   </mdatoms>   
+								<qmatoms>     82:C     135:H     136:H   </qmatoms>   
+								<mpoles>      82:C     135:H     136:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 135 82 136 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M10</name>
+								<mdatoms> 1:Z1:C64  1:Z1:H36  1:Z1:H37  1:Z1:H38 </mdatoms>   
+								<qmatoms>     83:C     137:H     138:H     139:H </qmatoms>   
+								<mpoles>      83:C     137:H     138:H     139:H </mpoles>    
+								<weights>       12         1         1         1 </weights>   
+								<localframe> 137 83 138 </localframe>
+							 </fragment>							 
+							 <fragment>
+							    <name>M11</name>
+								<mdatoms> 1:Z1:C52  1:Z1:H47  1:Z1:H48   </mdatoms>   
+								<qmatoms>     71:C     148:H     149:H   </qmatoms>   
+								<mpoles>      71:C     148:H     149:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 148 71 149 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M12</name>
+								<mdatoms> 1:Z1:C66  1:Z1:H49  1:Z1:H50    </mdatoms>   
+								<qmatoms>     85:C     150:H     151:H    </qmatoms>   
+								<mpoles>      85:C     150:H     151:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 150 85 151 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M13</name>
+								<mdatoms> 1:Z1:C67  1:Z1:H51  1:Z1:H52   </mdatoms>   
+								<qmatoms>     86:C     152:H     153:H   </qmatoms>   
+								<mpoles>      86:C     152:H     153:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 152 86 153 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M14</name>
+								<mdatoms> 1:Z1:C68  1:Z1:H53  1:Z1:H54    </mdatoms>   
+								<qmatoms>     87:C     154:H     155:H    </qmatoms>   
+								<mpoles>      87:C     154:H     155:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 154 87 155 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M15</name>
+								<mdatoms> 1:Z1:C69  1:Z1:H55  1:Z1:H56   </mdatoms>   
+								<qmatoms>     88:C     156:H     157:H   </qmatoms>   
+								<mpoles>      88:C     156:H     157:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 156 88 157 </localframe>
+							 </fragment>							 
+							 <fragment>
+							    <name>M16</name>
+								<mdatoms> 1:Z1:C70  1:Z1:H57  1:Z1:H58   </mdatoms>   
+								<qmatoms>     89:C     158:H     159:H   </qmatoms>   
+								<mpoles>      89:C     158:H     159:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 158 89 159 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M17</name>
+								<mdatoms> 1:Z1:C71  1:Z1:H59  1:Z1:H60   </mdatoms>   
+								<qmatoms>     90:C     160:H     161:H   </qmatoms>   
+								<mpoles>      90:C     160:H     161:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 160 90 161 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M18</name>
+								<mdatoms> 1:Z1:C72  1:Z1:H61  1:Z1:H62   </mdatoms>   
+								<qmatoms>     91:C     162:H     163:H   </qmatoms>   
+								<mpoles>      91:C     162:H     163:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 162 91 163 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M19</name>
+								<mdatoms> 1:Z1:C73  1:Z1:H63  1:Z1:H64   </mdatoms>   
+								<qmatoms>     92:C     164:H     165:H   </qmatoms>   
+								<mpoles>      92:C     164:H     165:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 164 92 165 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M20</name>
+								<mdatoms> 1:Z1:C74  1:Z1:H65  1:Z1:H66   </mdatoms>   
+								<qmatoms>     93:C     166:H     167:H   </qmatoms>   
+								<mpoles>      93:C     166:H     167:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 166 93 167 </localframe>
+							 </fragment>							 
+							 <fragment>
+							    <name>M21</name>
+								<mdatoms> 1:Z1:C75  1:Z1:H67  1:Z1:H68  1:Z1:H69   </mdatoms>   
+								<qmatoms>     94:C     168:H     169:H     170:H   </qmatoms>   
+								<mpoles>      94:C     168:H     169:H     170:H   </mpoles>    
+								<weights>       12         1         1         1   </weights>   
+								<localframe> 168 94 169 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M22</name>
+								<mdatoms> 1:Z1:C26  1:Z1:H39  1:Z1:H40   </mdatoms>   
+								<qmatoms>     42:C     140:H     141:H   </qmatoms>   
+								<mpoles>      42:C     140:H     141:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 140 42 141 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M23</name>
+								<mdatoms> 1:Z1:C38  1:Z1:H41  1:Z1:H42   </mdatoms>   
+								<qmatoms>     54:C     142:H     143:H   </qmatoms>   
+								<mpoles>      54:C     142:H     143:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 142 54 143 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M24</name>
+								<mdatoms> 1:Z1:C56  1:Z1:H43  1:Z1:H44    </mdatoms>   
+								<qmatoms>     75:C     144:H     145:H    </qmatoms>   
+								<mpoles>      75:C     144:H     145:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 144 75 145 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M25</name>
+								<mdatoms> 1:Z1:C58  1:Z1:H45  1:Z1:H46    </mdatoms>   
+								<qmatoms>     77:C     146:H     147:H    </qmatoms>   
+								<mpoles>      77:C     146:H     147:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 146 77 147 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M26</name>
+								<mdatoms> 1:Z1:C76  1:Z1:H70  1:Z1:H71   </mdatoms>   
+								<qmatoms>     95:C     171:H     172:H   </qmatoms>   
+								<mpoles>      95:C     171:H     172:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 171 95 172 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M27</name>
+								<mdatoms> 1:Z1:C77  1:Z1:H72  1:Z1:H73   </mdatoms>   
+								<qmatoms>     96:C     173:H     174:H   </qmatoms>   
+								<mpoles>      96:C     173:H     174:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 173 96 174 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M28</name>
+								<mdatoms> 1:Z1:C78  1:Z1:H74  1:Z1:H75    </mdatoms>   
+								<qmatoms>     97:C     175:H     176:H    </qmatoms>   
+								<mpoles>      97:C     175:H     176:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 175 97 176 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M29</name>
+								<mdatoms> 1:Z1:C79  1:Z1:H76  1:Z1:H77   </mdatoms>   
+								<qmatoms>     98:C     177:H     178:H   </qmatoms>   
+								<mpoles>      98:C     177:H     178:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 177 98 178 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M30</name>
+								<mdatoms> 1:Z1:C80  1:Z1:H78  1:Z1:H79    </mdatoms>   
+								<qmatoms>     99:C     179:H     180:H    </qmatoms>   
+								<mpoles>      99:C     179:H     180:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 179 99 180 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M31 </name>
+								<mdatoms> 1:Z1:C81  1:Z1:H80  1:Z1:H81   </mdatoms>   
+								<qmatoms>    100:C     181:H     182:H   </qmatoms>   
+								<mpoles>     100:C     181:H     182:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 181 100 182 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M32</name>
+								<mdatoms> 1:Z1:C82  1:Z1:H82  1:Z1:H83  1:Z1:H84    </mdatoms>   
+								<qmatoms>    101:C     183:H     184:H     185:H    </qmatoms>   
+								<mpoles>     101:C     183:H     184:H     185:H    </mpoles>    
+								<weights>       12         1         1         1    </weights>   
+								<localframe> 183 101 184 </localframe>
+							 </fragment>		 
+						</fragments>
+				</segment>
+			</segments>
+		</molecule>
+		<molecule>
+			<name>Y2</name>
+			<mdname>Y2</mdname>
+			<segments>
+				<segment>
+					<name>Y2</name>
+					<qmcoords>QC_FILES/Y2.xyz</qmcoords>
+					<multipoles_n>MP_FILES/Y2_1_pol.mps</multipoles_n>
+					<multipoles_e>MP_FILES/Y2_N1_pol.mps</multipoles_e>
+					<multipoles_h>MP_FILES/Y2_P1_pol.mps</multipoles_h>
+					<map2md>0</map2md>
+					<fragments>
+							 <fragment>
+							    <name>Core</name>
+								<mdatoms> 1:Y2:S3   1:Y2:N1   1:Y2:N2   1:Y2:N3   1:Y2:C4   1:Y2:C5   1:Y2:C6   1:Y2:C7   1:Y2:C8   1:Y2:C9   1:Y2:N8   1:Y2:S4   1:Y2:S5  1:Y2:C12  1:Y2:C24  1:Y2:C25  1:Y2:C31  1:Y2:C32  1:Y2:C45   1:Y2:S1   1:Y2:S2   1:Y2:C1   1:Y2:C2   1:Y2:C3  1:Y2:C16  1:Y2:C22  1:Y2:C27   </mdatoms>   
+								<qmatoms>     3:S       7:N       9:N      10:N      15:C      16:C      17:C      18:C      19:C      20:C      72:N       4:S       5:S      24:C      38:C      39:C      46:C      47:C      61:C       1:S       2:S      11:C      13:C      14:C      29:C      36:C      41:C   </qmatoms>   
+								<mpoles>      3:S       7:N       9:N      10:N      15:C      16:C      17:C      18:C      19:C      20:C      72:N       4:S       5:S      24:C      38:C      39:C      46:C      47:C      61:C       1:S       2:S      11:C      13:C      14:C      29:C      36:C      41:C   </mpoles>    
+								<weights>      32        14        14        14        12        12        12        12        12        12        14        32        32        12        12        12        12        12        12        32        32        12        12        12        12        12        12   </weights>   
+								<localframe> 17 18 19 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>A1</name>
+								<mdatoms> 1:Y2:O2  1:Y2:C33  1:Y2:C34  1:Y2:C39  1:Y2:C40  1:Y2:C41  1:Y2:C42   1:Y2:H8  1:Y2:C35  1:Y2:C36  1:Y2:C37  1:Y2:C38   1:Y2:F3   1:Y2:F4   1:Y2:H6   1:Y2:H7  </mdatoms>   
+								<qmatoms>    28:O      48:C      49:C      55:C      56:C      57:C      58:C     109:H      50:C      51:C      52:C      53:C      54:F      74:F     107:H     108:H  </qmatoms>   
+								<mpoles>     28:O      48:C      49:C      55:C      56:C      57:C      58:C     109:H      50:C      51:C      52:C      53:C      54:F      74:F     107:H     108:H  </mpoles>    
+								<weights>      16        12        12        12        12        12        12         1        12        12        12        12        19        19         1         1  </weights>   
+								<localframe> 56 57 48 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>A2</name>
+								<mdatoms> 1:Y2:O1  1:Y2:C10  1:Y2:C15  1:Y2:C17  1:Y2:C18  1:Y2:C21  1:Y2:C26  1:Y2:H86 1:Y2:F1   1:Y2:F2  1:Y2:C14  1:Y2:C28  1:Y2:C30  1:Y2:C46   1:Y2:H3  1:Y2:H10  </mdatoms>   
+								<qmatoms>     8:O      21:C      27:C      30:C      32:C      35:C      40:C     187:H     6:F      12:F      26:C      43:C      45:C      62:C     104:H     111:H  </qmatoms>   
+								<mpoles>      8:O      21:C      27:C      30:C      32:C      35:C      40:C     187:H     6:F      12:F      26:C      43:C      45:C      62:C     104:H     111:H  </mpoles>    
+								<weights>      16        12        12        12        12        12        12         1      19        19        12        12        12        12         1         1  </weights>   
+								<localframe> 21 32 40 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>DCV1</name>
+								<mdatoms> 1:Y2:N6  1:Y2:C43   1:Y2:N7  1:Y2:C49  1:Y2:C55   </mdatoms>   
+								<qmatoms>    42:N      59:C      65:N      66:C      73:C   </qmatoms>   
+								<mpoles>     42:N      59:C      65:N      66:C      73:C   </mpoles>    
+								<weights>      14        12        14        12        12   </weights>   
+								<localframe> 59 66 73 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>DCV2</name>
+								<mdatoms> 1:Y2:N4  1:Y2:C13   1:Y2:N5  1:Y2:C19  1:Y2:C23  </mdatoms>   
+								<qmatoms>    22:N      25:C      31:N      33:C      37:C  </qmatoms>   
+								<mpoles>     22:N      25:C      31:N      33:C      37:C  </mpoles>    
+								<weights>      14        12        14        12        12  </weights>   
+								<localframe> 33 25 37 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>NMe1</name>
+								<mdatoms> 1:Y2:C29   1:Y2:H4   1:Y2:H5   </mdatoms>   
+								<qmatoms>     44:C     105:H     106:H   </qmatoms>   
+								<mpoles>      44:C     105:H     106:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 105 44 106 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>NMe2</name>
+								<mdatoms> 1:Y2:C11   1:Y2:H1   1:Y2:H2  </mdatoms>   
+								<qmatoms>     23:C     102:H     103:H  </qmatoms>   
+								<mpoles>      23:C     102:H     103:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 102 23 103 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>CH_1</name>
+								<mdatoms> 1:Y2:C59  1:Y2:H22  </mdatoms>   
+								<qmatoms>     78:C     123:H  </qmatoms>   
+								<mpoles>      78:C     123:H  </mpoles>    
+								<weights>       12         1  </weights>   
+								<localframe> 78 123 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>Et1</name>
+								<mdatoms> 1:Y2:C61 1:Y2:H25  1:Y2:H26  </mdatoms>   
+								<qmatoms>     80:C    126:H     127:H  </qmatoms>   
+								<mpoles>      80:C    126:H     127:H  </mpoles>    
+								<weights>       12        1         1  </weights>   
+								<localframe> 126 80 127 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>CH_2</name>
+								<mdatoms>  1:Y2:C44   1:Y2:H9  </mdatoms>   
+								<qmatoms>      60:C     110:H  </qmatoms>   
+								<mpoles>       60:C     110:H  </mpoles>    
+								<weights>        12         1  </weights>   
+								<localframe> 60 110 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>Et2</name>
+								<mdatoms>   1:Y2:C58  1:Y2:H20  1:Y2:H21   </mdatoms>   
+								<qmatoms>       77:C     121:H     122:H   </qmatoms>   
+								<mpoles>        77:C     121:H     122:H   </mpoles>    
+								<weights>         12         1         1   </weights>   
+								<localframe> 121 77 122 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M1</name>
+								<mdatoms> 1:Y2:C63  1:Y2:H29  1:Y2:H30  1:Y2:H31 </mdatoms>   
+								<qmatoms>     82:C     130:H     131:H     132:H </qmatoms>   
+								<mpoles>      82:C     130:H     131:H     132:H </mpoles>    
+								<weights>       12         1         1         1 </weights>   
+								<localframe> 130 82 131 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M2</name>
+								<mdatoms> 1:Y2:C60  1:Y2:H23  1:Y2:H24 </mdatoms>   
+								<qmatoms>     79:C     124:H     125:H </qmatoms>   
+								<mpoles>      79:C     124:H     125:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 124 79 125 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M3</name>
+								<mdatoms> 1:Y2:C64  1:Y2:H32  1:Y2:H33   </mdatoms>   
+								<qmatoms>     83:C     133:H     134:H   </qmatoms>   
+								<mpoles>      83:C     133:H     134:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 133 83 134 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M4</name>
+								<mdatoms> 1:Y2:C62  1:Y2:H27  1:Y2:H28  </mdatoms>   
+								<qmatoms>     81:C     128:H     129:H  </qmatoms>   
+								<mpoles>      81:C     128:H     129:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 128 81 129 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M5</name>
+								<mdatoms> 1:Y2:C65  1:Y2:H34  1:Y2:H35  1:Y2:H36 </mdatoms>   
+								<qmatoms>     84:C     135:H     136:H     137:H </qmatoms>   
+								<mpoles>      84:C     135:H     136:H     137:H </mpoles>    
+								<weights>       12         1         1         1 </weights>   
+								<localframe> 135 84 136 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M6</name>
+								<mdatoms> 1:Y2:C57  1:Y2:H17  1:Y2:H18  1:Y2:H19 </mdatoms>   
+								<qmatoms>     76:C     118:H     119:H     120:H </qmatoms>   
+								<mpoles>      76:C     118:H     119:H     120:H </mpoles>    
+								<weights>       12         1         1         1 </weights>   
+								<localframe> 118 76 119 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M7</name>
+								<mdatoms> 1:Y2:C52  1:Y2:H11  1:Y2:H12  </mdatoms>   
+								<qmatoms>     69:C     112:H     113:H  </qmatoms>   
+								<mpoles>      69:C     112:H     113:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 112 69 113 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M8</name>
+								<mdatoms> 1:Y2:C56  1:Y2:H15  1:Y2:H16  </mdatoms>   
+								<qmatoms>     75:C     116:H     117:H  </qmatoms>   
+								<mpoles>      75:C     116:H     117:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 116 75 117 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M9</name>
+								<mdatoms> 1:Y2:C54  1:Y2:H13  1:Y2:H14 </mdatoms>   
+								<qmatoms>     71:C     114:H     115:H </qmatoms>   
+								<mpoles>      71:C     114:H     115:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 114 71 115 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M10</name>
+								<mdatoms> 1:Y2:C82  1:Y2:H83  1:Y2:H84  1:Y2:H85 </mdatoms>   
+								<qmatoms>    101:C     184:H     185:H     186:H </qmatoms>   
+								<mpoles>     101:C     184:H     185:H     186:H </mpoles>    
+								<weights>       12         1         1         1 </weights>   
+								<localframe> 184 101 185 </localframe>
+							 </fragment>	
+							 <fragment>
+							    <name>M11</name>
+								<mdatoms> 1:Y2:C20  1:Y2:H37  1:Y2:H38      </mdatoms>   
+								<qmatoms>     34:C     138:H     139:H      </qmatoms>   
+								<mpoles>      34:C     138:H     139:H      </mpoles>    
+								<weights>       12         1         1      </weights>   
+								<localframe> 138 34 139 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M12</name>
+								<mdatoms> 1:Y2:C50  1:Y2:H39  1:Y2:H40    </mdatoms>   
+								<qmatoms>     67:C     140:H     141:H    </qmatoms>   
+								<mpoles>      67:C     140:H     141:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 140 67 141 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M13</name>
+								<mdatoms> 1:Y2:C48  1:Y2:H41  1:Y2:H42       </mdatoms>   
+								<qmatoms>     64:C     142:H     143:H       </qmatoms>   
+								<mpoles>      64:C     142:H     143:H       </mpoles>    
+								<weights>       12         1         1       </weights>   
+								<localframe> 142 64 143 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M14</name>
+								<mdatoms> 1:Y2:C67  1:Y2:H51  1:Y2:H52   </mdatoms>   
+								<qmatoms>     86:C     152:H     153:H   </qmatoms>   
+								<mpoles>      86:C     152:H     153:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 152 86 153 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M15</name>
+								<mdatoms> 1:Y2:C68  1:Y2:H53  1:Y2:H54 </mdatoms>   
+								<qmatoms>     87:C     154:H     155:H </qmatoms>   
+								<mpoles>      87:C     154:H     155:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 154 87 155 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M16</name>
+								<mdatoms> 1:Y2:C69  1:Y2:H55  1:Y2:H56  </mdatoms>   
+								<qmatoms>     88:C     156:H     157:H  </qmatoms>   
+								<mpoles>      88:C     156:H     157:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 156 88 157 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M17</name>
+								<mdatoms> 1:Y2:C70  1:Y2:H57  1:Y2:H58 </mdatoms>   
+								<qmatoms>     89:C     158:H     159:H </qmatoms>   
+								<mpoles>      89:C     158:H     159:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 158 89 159 </localframe>
+							 </fragment>		
+							 <fragment>
+							    <name>M18</name>
+								<mdatoms> 1:Y2:C71  1:Y2:H59  1:Y2:H60  </mdatoms>   
+								<qmatoms>     90:C     160:H     161:H  </qmatoms>   
+								<mpoles>      90:C     160:H     161:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 160 90 161 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M19</name>
+								<mdatoms> 1:Y2:C72  1:Y2:H61  1:Y2:H62 </mdatoms>   
+								<qmatoms>     91:C     162:H     163:H </qmatoms>   
+								<mpoles>      91:C     162:H     163:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 162 91 163 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M20</name>
+								<mdatoms> 1:Y2:C73  1:Y2:H63  1:Y2:H64 </mdatoms>   
+								<qmatoms>     92:C     164:H     165:H </qmatoms>   
+								<mpoles>      92:C     164:H     165:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 164 92 165 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M21</name>
+								<mdatoms> 1:Y2:C74  1:Y2:H65  1:Y2:H66  1:Y2:H67  </mdatoms>   
+								<qmatoms>     93:C     166:H     167:H     168:H  </qmatoms>   
+								<mpoles>      93:C     166:H     167:H     168:H  </mpoles>    
+								<weights>       12         1         1         1  </weights>   
+								<localframe> 166 93 167 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M22</name>
+								<mdatoms> 1:Y2:C47  1:Y2:H43  1:Y2:H44 </mdatoms>   
+								<qmatoms>     63:C     144:H     145:H </qmatoms>   
+								<mpoles>      63:C     144:H     145:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 144 63 145 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M23</name>
+								<mdatoms> 1:Y2:C51  1:Y2:H45  1:Y2:H46 </mdatoms>   
+								<qmatoms>     68:C     146:H     147:H </qmatoms>   
+								<mpoles>      68:C     146:H     147:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 146 68 147 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M24</name>
+								<mdatoms> 1:Y2:C53  1:Y2:H47  1:Y2:H48  </mdatoms>   
+								<qmatoms>     70:C     148:H     149:H  </qmatoms>   
+								<mpoles>      70:C     148:H     149:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 148 70 149 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M25</name>
+								<mdatoms> 1:Y2:C66  1:Y2:H49  1:Y2:H50  </mdatoms>   
+								<qmatoms>     85:C     150:H     151:H  </qmatoms>   
+								<mpoles>      85:C     150:H     151:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 150 85 151 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M26</name>
+								<mdatoms> 1:Y2:C75  1:Y2:H68  1:Y2:H69  </mdatoms>   
+								<qmatoms>     94:C     169:H     170:H  </qmatoms>   
+								<mpoles>      94:C     169:H     170:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 169 94 170 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M27</name>
+								<mdatoms> 1:Y2:C76  1:Y2:H70  1:Y2:H71         </mdatoms>   
+								<qmatoms>     95:C     171:H     172:H         </qmatoms>   
+								<mpoles>      95:C     171:H     172:H         </mpoles>    
+								<weights>       12         1         1         </weights>   
+								<localframe> 171 95 172 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M28</name>
+								<mdatoms> 1:Y2:C77  1:Y2:H72  1:Y2:H73  </mdatoms>   
+								<qmatoms>     96:C     173:H     174:H  </qmatoms>   
+								<mpoles>      96:C     173:H     174:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 173 96 174 </localframe>
+							 </fragment>	
+							 <fragment>
+							    <name>M29</name>
+								<mdatoms> 1:Y2:C78  1:Y2:H74  1:Y2:H75       </mdatoms>   
+								<qmatoms>     97:C     175:H     176:H       </qmatoms>   
+								<mpoles>      97:C     175:H     176:H       </mpoles>    
+								<weights>       12         1         1       </weights>   
+								<localframe> 175 97 176 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M30</name>
+								<mdatoms> 1:Y2:C79  1:Y2:H76  1:Y2:H77 </mdatoms>   
+								<qmatoms>     98:C     177:H     178:H </qmatoms>   
+								<mpoles>      98:C     177:H     178:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 177 98 178 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M31</name>
+								<mdatoms> 1:Y2:C80  1:Y2:H78  1:Y2:H79 </mdatoms>   
+								<qmatoms>     99:C     179:H     180:H </qmatoms>   
+								<mpoles>      99:C     179:H     180:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 179 99 180 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M32</name>
+								<mdatoms> 1:Y2:C81  1:Y2:H80  1:Y2:H81  1:Y2:H82 </mdatoms>   
+								<qmatoms>    100:C     181:H     182:H     183:H </qmatoms>   
+								<mpoles>     100:C     181:H     182:H     183:H </mpoles>    
+								<weights>       12         1         1         1 </weights>   
+								<localframe> 181 100 182 </localframe>
+							 </fragment>							 
+					</fragments>
+				</segment>
+			</segments>
+		</molecule>
+		<molecule>
+			<name>Z2</name>
+			<mdname>Z2</mdname>
+			<segments>
+				<segment>
+					<name>Z2</name>
+					<qmcoords>QC_FILES/Z2.xyz</qmcoords>
+					<multipoles_n>MP_FILES/Z2_1_pol.mps</multipoles_n>
+					<multipoles_e>MP_FILES/Z2_N1_pol.mps</multipoles_e>
+					<multipoles_h>MP_FILES/Z2_P1_pol.mps</multipoles_h>
+					<map2md>0</map2md>
+					<fragments>
+                            <fragment>
+							    <name>Core</name>
+								<mdatoms> 1:Z2:S3   1:Z2:N1   1:Z2:N2   1:Z2:N3   1:Z2:C4   1:Z2:C5   1:Z2:C6   1:Z2:C7   1:Z2:C8   1:Z2:C9   1:Z2:N8   1:Z2:S4   1:Z2:S5  1:Z2:C12  1:Z2:C24  1:Z2:C25  1:Z2:C31  1:Z2:C32  1:Z2:C45   1:Z2:S1   1:Z2:S2   1:Z2:C1   1:Z2:C2   1:Z2:C3  1:Z2:C16  1:Z2:C22  1:Z2:C27   </mdatoms>   
+								<qmatoms>     3:S       7:N       9:N      10:N      15:C      16:C      17:C      18:C      19:C      20:C      72:N       4:S       5:S      24:C      38:C      39:C      46:C      47:C      61:C       1:S       2:S      11:C      13:C      14:C      29:C      36:C      41:C   </qmatoms>   
+								<mpoles>      3:S       7:N       9:N      10:N      15:C      16:C      17:C      18:C      19:C      20:C      72:N       4:S       5:S      24:C      38:C      39:C      46:C      47:C      61:C       1:S       2:S      11:C      13:C      14:C      29:C      36:C      41:C   </mpoles>    
+								<weights>      32        14        14        14        12        12        12        12        12        12        14        32        32        12        12        12        12        12        12        32        32        12        12        12        12        12        12   </weights>   
+								<localframe> 17 18 19 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>A1</name>
+								<mdatoms> 1:Z2:O2  1:Z2:C33  1:Z2:C34  1:Z2:C39  1:Z2:C40  1:Z2:C41  1:Z2:C42   1:Z2:H8  1:Z2:C35  1:Z2:C36  1:Z2:C37  1:Z2:C38   1:Z2:F3   1:Z2:F4   1:Z2:H6   1:Z2:H7  </mdatoms>   
+								<qmatoms>    28:O      48:C      49:C      55:C      56:C      57:C      58:C     109:H      50:C      51:C      52:C      53:C      54:F      74:F     107:H     108:H  </qmatoms>   
+								<mpoles>     28:O      48:C      49:C      55:C      56:C      57:C      58:C     109:H      50:C      51:C      52:C      53:C      54:F      74:F     107:H     108:H  </mpoles>    
+								<weights>      16        12        12        12        12        12        12         1        12        12        12        12        19        19         1         1  </weights>   
+								<localframe> 56 57 48 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>A2</name>
+								<mdatoms> 1:Z2:O1  1:Z2:C10  1:Z2:C15  1:Z2:C17  1:Z2:C18  1:Z2:C21  1:Z2:C26  1:Z2:H86 1:Z2:F1   1:Z2:F2  1:Z2:C14  1:Z2:C28  1:Z2:C30  1:Z2:C46   1:Z2:H3  1:Z2:H10  </mdatoms>   
+								<qmatoms>     8:O      21:C      27:C      30:C      32:C      35:C      40:C     187:H     6:F      12:F      26:C      43:C      45:C      62:C     104:H     111:H  </qmatoms>   
+								<mpoles>      8:O      21:C      27:C      30:C      32:C      35:C      40:C     187:H     6:F      12:F      26:C      43:C      45:C      62:C     104:H     111:H  </mpoles>    
+								<weights>      16        12        12        12        12        12        12         1      19        19        12        12        12        12         1         1  </weights>   
+								<localframe> 21 32 40 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>DCV1</name>
+								<mdatoms> 1:Z2:N6  1:Z2:C43   1:Z2:N7  1:Z2:C49  1:Z2:C55   </mdatoms>   
+								<qmatoms>    42:N      59:C      65:N      66:C      73:C   </qmatoms>   
+								<mpoles>     42:N      59:C      65:N      66:C      73:C   </mpoles>    
+								<weights>      14        12        14        12        12   </weights>   
+								<localframe> 59 66 73 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>DCV2</name>
+								<mdatoms> 1:Z2:N4  1:Z2:C13   1:Z2:N5  1:Z2:C19  1:Z2:C23  </mdatoms>   
+								<qmatoms>    22:N      25:C      31:N      33:C      37:C  </qmatoms>   
+								<mpoles>     22:N      25:C      31:N      33:C      37:C  </mpoles>    
+								<weights>      14        12        14        12        12  </weights>   
+								<localframe> 33 25 37 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>NMe1</name>
+								<mdatoms> 1:Z2:C29   1:Z2:H4   1:Z2:H5   </mdatoms>   
+								<qmatoms>     44:C     105:H     106:H   </qmatoms>   
+								<mpoles>      44:C     105:H     106:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 105 44 106 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>NMe2</name>
+								<mdatoms> 1:Z2:C11   1:Z2:H1   1:Z2:H2  </mdatoms>   
+								<qmatoms>     23:C     102:H     103:H  </qmatoms>   
+								<mpoles>      23:C     102:H     103:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 102 23 103 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>CH_1</name>
+								<mdatoms> 1:Z2:C59  1:Z2:H22  </mdatoms>   
+								<qmatoms>     78:C     123:H  </qmatoms>   
+								<mpoles>      78:C     123:H  </mpoles>    
+								<weights>       12         1  </weights>   
+								<localframe> 78 123 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>Et1</name>
+								<mdatoms> 1:Z2:C61 1:Z2:H25  1:Z2:H26  </mdatoms>   
+								<qmatoms>     80:C    126:H     127:H  </qmatoms>   
+								<mpoles>      80:C    126:H     127:H  </mpoles>    
+								<weights>       12        1         1  </weights>   
+								<localframe> 126 80 127 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>CH_2</name>
+								<mdatoms>  1:Z2:C44   1:Z2:H9  </mdatoms>   
+								<qmatoms>      60:C     110:H  </qmatoms>   
+								<mpoles>       60:C     110:H  </mpoles>    
+								<weights>        12         1  </weights>   
+								<localframe> 60 110 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>Et2</name>
+								<mdatoms>   1:Z2:C58  1:Z2:H20  1:Z2:H21   </mdatoms>   
+								<qmatoms>       77:C     121:H     122:H   </qmatoms>   
+								<mpoles>        77:C     121:H     122:H   </mpoles>    
+								<weights>         12         1         1   </weights>   
+								<localframe> 121 77 122 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M1</name>
+								<mdatoms> 1:Z2:C63  1:Z2:H29  1:Z2:H30  1:Z2:H31 </mdatoms>   
+								<qmatoms>     82:C     130:H     131:H     132:H </qmatoms>   
+								<mpoles>      82:C     130:H     131:H     132:H </mpoles>    
+								<weights>       12         1         1         1 </weights>   
+								<localframe> 130 82 131 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M2</name>
+								<mdatoms> 1:Z2:C60  1:Z2:H23  1:Z2:H24 </mdatoms>   
+								<qmatoms>     79:C     124:H     125:H </qmatoms>   
+								<mpoles>      79:C     124:H     125:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 124 79 125 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M3</name>
+								<mdatoms> 1:Z2:C64  1:Z2:H32  1:Z2:H33   </mdatoms>   
+								<qmatoms>     83:C     133:H     134:H   </qmatoms>   
+								<mpoles>      83:C     133:H     134:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 133 83 134 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M4</name>
+								<mdatoms> 1:Z2:C62  1:Z2:H27  1:Z2:H28  </mdatoms>   
+								<qmatoms>     81:C     128:H     129:H  </qmatoms>   
+								<mpoles>      81:C     128:H     129:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 128 81 129 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M5</name>
+								<mdatoms> 1:Z2:C65  1:Z2:H34  1:Z2:H35  1:Z2:H36 </mdatoms>   
+								<qmatoms>     84:C     135:H     136:H     137:H </qmatoms>   
+								<mpoles>      84:C     135:H     136:H     137:H </mpoles>    
+								<weights>       12         1         1         1 </weights>   
+								<localframe> 135 84 136 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M6</name>
+								<mdatoms> 1:Z2:C57  1:Z2:H17  1:Z2:H18  1:Z2:H19 </mdatoms>   
+								<qmatoms>     76:C     118:H     119:H     120:H </qmatoms>   
+								<mpoles>      76:C     118:H     119:H     120:H </mpoles>    
+								<weights>       12         1         1         1 </weights>   
+								<localframe> 118 76 119 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M7</name>
+								<mdatoms> 1:Z2:C52  1:Z2:H11  1:Z2:H12  </mdatoms>   
+								<qmatoms>     69:C     112:H     113:H  </qmatoms>   
+								<mpoles>      69:C     112:H     113:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 112 69 113 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M8</name>
+								<mdatoms> 1:Z2:C56  1:Z2:H15  1:Z2:H16  </mdatoms>   
+								<qmatoms>     75:C     116:H     117:H  </qmatoms>   
+								<mpoles>      75:C     116:H     117:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 116 75 117 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M9</name>
+								<mdatoms> 1:Z2:C54  1:Z2:H13  1:Z2:H14 </mdatoms>   
+								<qmatoms>     71:C     114:H     115:H </qmatoms>   
+								<mpoles>      71:C     114:H     115:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 114 71 115 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M10</name>
+								<mdatoms> 1:Z2:C82  1:Z2:H83  1:Z2:H84  1:Z2:H85 </mdatoms>   
+								<qmatoms>    101:C     184:H     185:H     186:H </qmatoms>   
+								<mpoles>     101:C     184:H     185:H     186:H </mpoles>    
+								<weights>       12         1         1         1 </weights>   
+								<localframe> 184 101 185 </localframe>
+							 </fragment>	
+							 <fragment>
+							    <name>M11</name>
+								<mdatoms> 1:Z2:C20  1:Z2:H37  1:Z2:H38      </mdatoms>   
+								<qmatoms>     34:C     138:H     139:H      </qmatoms>   
+								<mpoles>      34:C     138:H     139:H      </mpoles>    
+								<weights>       12         1         1      </weights>   
+								<localframe> 138 34 139 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M12</name>
+								<mdatoms> 1:Z2:C50  1:Z2:H39  1:Z2:H40    </mdatoms>   
+								<qmatoms>     67:C     140:H     141:H    </qmatoms>   
+								<mpoles>      67:C     140:H     141:H    </mpoles>    
+								<weights>       12         1         1    </weights>   
+								<localframe> 140 67 141 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M13</name>
+								<mdatoms> 1:Z2:C48  1:Z2:H41  1:Z2:H42       </mdatoms>   
+								<qmatoms>     64:C     142:H     143:H       </qmatoms>   
+								<mpoles>      64:C     142:H     143:H       </mpoles>    
+								<weights>       12         1         1       </weights>   
+								<localframe> 142 64 143 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M14</name>
+								<mdatoms> 1:Z2:C67  1:Z2:H51  1:Z2:H52   </mdatoms>   
+								<qmatoms>     86:C     152:H     153:H   </qmatoms>   
+								<mpoles>      86:C     152:H     153:H   </mpoles>    
+								<weights>       12         1         1   </weights>   
+								<localframe> 152 86 153 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M15</name>
+								<mdatoms> 1:Z2:C68  1:Z2:H53  1:Z2:H54 </mdatoms>   
+								<qmatoms>     87:C     154:H     155:H </qmatoms>   
+								<mpoles>      87:C     154:H     155:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 154 87 155 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M16</name>
+								<mdatoms> 1:Z2:C69  1:Z2:H55  1:Z2:H56  </mdatoms>   
+								<qmatoms>     88:C     156:H     157:H  </qmatoms>   
+								<mpoles>      88:C     156:H     157:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 156 88 157 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M17</name>
+								<mdatoms> 1:Z2:C70  1:Z2:H57  1:Z2:H58 </mdatoms>   
+								<qmatoms>     89:C     158:H     159:H </qmatoms>   
+								<mpoles>      89:C     158:H     159:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 158 89 159 </localframe>
+							 </fragment>		
+							 <fragment>
+							    <name>M18</name>
+								<mdatoms> 1:Z2:C71  1:Z2:H59  1:Z2:H60  </mdatoms>   
+								<qmatoms>     90:C     160:H     161:H  </qmatoms>   
+								<mpoles>      90:C     160:H     161:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 160 90 161 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M19</name>
+								<mdatoms> 1:Z2:C72  1:Z2:H61  1:Z2:H62 </mdatoms>   
+								<qmatoms>     91:C     162:H     163:H </qmatoms>   
+								<mpoles>      91:C     162:H     163:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 162 91 163 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M20</name>
+								<mdatoms> 1:Z2:C73  1:Z2:H63  1:Z2:H64 </mdatoms>   
+								<qmatoms>     92:C     164:H     165:H </qmatoms>   
+								<mpoles>      92:C     164:H     165:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 164 92 165 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M21</name>
+								<mdatoms> 1:Z2:C74  1:Z2:H65  1:Z2:H66  1:Z2:H67  </mdatoms>   
+								<qmatoms>     93:C     166:H     167:H     168:H  </qmatoms>   
+								<mpoles>      93:C     166:H     167:H     168:H  </mpoles>    
+								<weights>       12         1         1         1  </weights>   
+								<localframe> 166 93 167 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M22</name>
+								<mdatoms> 1:Z2:C47  1:Z2:H43  1:Z2:H44 </mdatoms>   
+								<qmatoms>     63:C     144:H     145:H </qmatoms>   
+								<mpoles>      63:C     144:H     145:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 144 63 145 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M23</name>
+								<mdatoms> 1:Z2:C51  1:Z2:H45  1:Z2:H46 </mdatoms>   
+								<qmatoms>     68:C     146:H     147:H </qmatoms>   
+								<mpoles>      68:C     146:H     147:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 146 68 147 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M24</name>
+								<mdatoms> 1:Z2:C53  1:Z2:H47  1:Z2:H48  </mdatoms>   
+								<qmatoms>     70:C     148:H     149:H  </qmatoms>   
+								<mpoles>      70:C     148:H     149:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 148 70 149 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M25</name>
+								<mdatoms> 1:Z2:C66  1:Z2:H49  1:Z2:H50  </mdatoms>   
+								<qmatoms>     85:C     150:H     151:H  </qmatoms>   
+								<mpoles>      85:C     150:H     151:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 150 85 151 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M26</name>
+								<mdatoms> 1:Z2:C75  1:Z2:H68  1:Z2:H69  </mdatoms>   
+								<qmatoms>     94:C     169:H     170:H  </qmatoms>   
+								<mpoles>      94:C     169:H     170:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 169 94 170 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M27</name>
+								<mdatoms> 1:Z2:C76  1:Z2:H70  1:Z2:H71         </mdatoms>   
+								<qmatoms>     95:C     171:H     172:H         </qmatoms>   
+								<mpoles>      95:C     171:H     172:H         </mpoles>    
+								<weights>       12         1         1         </weights>   
+								<localframe> 171 95 172 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M28</name>
+								<mdatoms> 1:Z2:C77  1:Z2:H72  1:Z2:H73  </mdatoms>   
+								<qmatoms>     96:C     173:H     174:H  </qmatoms>   
+								<mpoles>      96:C     173:H     174:H  </mpoles>    
+								<weights>       12         1         1  </weights>   
+								<localframe> 173 96 174 </localframe>
+							 </fragment>	
+							 <fragment>
+							    <name>M29</name>
+								<mdatoms> 1:Z2:C78  1:Z2:H74  1:Z2:H75       </mdatoms>   
+								<qmatoms>     97:C     175:H     176:H       </qmatoms>   
+								<mpoles>      97:C     175:H     176:H       </mpoles>    
+								<weights>       12         1         1       </weights>   
+								<localframe> 175 97 176 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M30</name>
+								<mdatoms> 1:Z2:C79  1:Z2:H76  1:Z2:H77 </mdatoms>   
+								<qmatoms>     98:C     177:H     178:H </qmatoms>   
+								<mpoles>      98:C     177:H     178:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 177 98 178 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M31</name>
+								<mdatoms> 1:Z2:C80  1:Z2:H78  1:Z2:H79 </mdatoms>   
+								<qmatoms>     99:C     179:H     180:H </qmatoms>   
+								<mpoles>      99:C     179:H     180:H </mpoles>    
+								<weights>       12         1         1 </weights>   
+								<localframe> 179 99 180 </localframe>
+							 </fragment>
+							 <fragment>
+							    <name>M32</name>
+								<mdatoms> 1:Z2:C81  1:Z2:H80  1:Z2:H81  1:Z2:H82 </mdatoms>   
+								<qmatoms>    100:C     181:H     182:H     183:H </qmatoms>   
+								<mpoles>     100:C     181:H     182:H     183:H </mpoles>    
+								<weights>       12         1         1         1 </weights>   
+								<localframe> 181 100 182 </localframe>
+							 </fragment>
+					</fragments>
+				</segment>
+			</segments>
+		</molecule>
+	</molecules>
+</topology>

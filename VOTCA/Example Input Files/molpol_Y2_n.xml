@@ -1,0 +1,20 @@
+<options>
+	<molpol>
+		<mpsfiles>
+			<input>MP_FILES/core/Y2_N1_core.mps</input>
+			<output>MP_FILES/core/Y2_N1_pol_core.mps</output>
+			<polar>MP_FILES/core/Y2_N1.xml</polar>
+		</mpsfiles>
+		<induction>
+			<expdamp>0.39000</expdamp>
+			<wSOR>0.3</wSOR>
+			<maxiter>1024</maxiter>
+			<tolerance>0.00001</tolerance>
+		</induction>
+		<target>
+			<optimize>true</optimize>
+			<molpol>38 0 0 169 0 1025</molpol>
+			<tolerance>0.00001</tolerance>
+		</target>
+	</molpol>
+</options>

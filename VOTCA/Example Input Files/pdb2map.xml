@@ -1,0 +1,7 @@
+<options>
+    <pdb2map>
+        <num>1</num>
+		<pdb>Y6MD.pdb</pdb>
+        <gro>Y6MD.gro</gro>
+    </pdb2map>
+</options>

@@ -1,0 +1,8 @@
+<options>
+	<jobwriter>
+		<keys>mps.chrg</keys>
+    <states>n e h</states>
+		<single_id>10</single_id>
+		<cutoff>3</cutoff>
+	</jobwriter>
+</options>

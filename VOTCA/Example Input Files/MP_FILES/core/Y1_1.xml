@@ -1,0 +1,17 @@
+<polarizability mps='MP_FILES/core/Y1_1_pol_core.mps'>
+	<polartensor type='scf' frame='global'>
+		+6.8325650e+01  -1.5030411e+01  -3.2502559e+00
+		-1.5030377e+01  +1.6909668e+02  -1.9665811e+01
+		-3.2502726e+00  -1.9665846e+01  +1.9302226e+02
+	</polartensor>
+	<polartensor type='scf' frame='eigen'>
+		+6.5835182e+01  +0.0000000e+00  +0.0000000e+00 
+		+0.0000000e+00  +1.6037485e+02  +0.0000000e+00 
+		+0.0000000e+00  +0.0000000e+00  +2.0423456e+02 
+	</polartensor>
+	<principalaxes>
+		+9.8702053e-01  +1.5297561e-01  +4.8876668e-02 
+		-1.5684149e-01  +8.5281824e-01  +4.9809818e-01 
+		+3.4513961e-02  -4.9929902e-01  +8.6574204e-01 
+	</principalaxes>
+</polarizability>

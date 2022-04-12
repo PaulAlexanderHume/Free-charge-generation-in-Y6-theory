@@ -1,0 +1,24 @@
+<options>
+	<ewdbgpol>
+		<multipoles>system.xml</multipoles>
+		<control>
+			<mps_table>mps.tab</mps_table>
+			<pdb_check>1</pdb_check>
+		</control>
+		<coulombmethod>
+			<method>ewald</method>
+			<cutoff>6</cutoff>
+			<shape>xyslab</shape>
+		</coulombmethod>
+		<polarmethod>
+			<method>thole</method>
+			<wSOR_N>0.350</wSOR_N>
+			<aDamp>0.390</aDamp>
+		</polarmethod>
+		<convergence>
+			<energy>1e-05</energy>
+			<kfactor>100</kfactor>
+			<rfactor>6</rfactor>
+		</convergence>
+	</ewdbgpol>
+</options>
